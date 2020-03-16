@@ -1,0 +1,249 @@
+{
+    "browsers": {
+        "33043829": {
+            "id": "33043829",
+            "fullName": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36",
+            "name": "Chrome 80.0.3987 (Windows 10.0.0)",
+            "state": "CONNECTED",
+            "lastResult": {
+                "startTime": 1583824158082,
+                "total": 14,
+                "success": 14,
+                "failed": 0,
+                "skipped": 0,
+                "totalTime": 215,
+                "netTime": 83,
+                "error": false,
+                "disconnected": false
+            },
+            "disconnectsCount": 0,
+            "noActivityTimeout": 30000,
+            "disconnectDelay": 2000
+        }
+    },
+    "result": {
+        "33043829": [
+            {
+                "fullName": "Hero Component (shallow tests) should have correct hero",
+                "description": "should have correct hero",
+                "id": "spec0",
+                "log": [],
+                "skipped": false,
+                "disabled": false,
+                "pending": false,
+                "success": true,
+                "suite": [
+                    "Hero Component (shallow tests)"
+                ],
+                "time": 58,
+                "executedExpectationsCount": 1
+            },
+            {
+                "fullName": "Hero Component (shallow tests) should render hero name in anchor tag",
+                "description": "should render hero name in anchor tag",
+                "id": "spec1",
+                "log": [],
+                "skipped": false,
+                "disabled": false,
+                "pending": false,
+                "success": true,
+                "suite": [
+                    "Hero Component (shallow tests)"
+                ],
+                "time": 18,
+                "executedExpectationsCount": 1
+            },
+            {
+                "fullName": "HeroesComponent should have empty heroes",
+                "description": "should have empty heroes",
+                "id": "spec2",
+                "log": [],
+                "skipped": false,
+                "disabled": false,
+                "pending": false,
+                "success": true,
+                "suite": [
+                    "HeroesComponent"
+                ],
+                "time": 0,
+                "executedExpectationsCount": 1
+            },
+            {
+                "fullName": "HeroesComponent should call ngOnInit",
+                "description": "should call ngOnInit",
+                "id": "spec3",
+                "log": [],
+                "skipped": false,
+                "disabled": false,
+                "pending": false,
+                "success": true,
+                "suite": [
+                    "HeroesComponent"
+                ],
+                "time": 1,
+                "executedExpectationsCount": 1
+            },
+            {
+                "fullName": "HeroesComponent Delete function should remove the passed hero from the HEROES list",
+                "description": "should remove the passed hero from the HEROES list",
+                "id": "spec4",
+                "log": [],
+                "skipped": false,
+                "disabled": false,
+                "pending": false,
+                "success": true,
+                "suite": [
+                    "HeroesComponent",
+                    "Delete function"
+                ],
+                "time": 1,
+                "executedExpectationsCount": 1
+            },
+            {
+                "fullName": "HeroesComponent Delete function should call deleteHero",
+                "description": "should call deleteHero",
+                "id": "spec5",
+                "log": [],
+                "skipped": false,
+                "disabled": false,
+                "pending": false,
+                "success": true,
+                "suite": [
+                    "HeroesComponent",
+                    "Delete function"
+                ],
+                "time": 1,
+                "executedExpectationsCount": 1
+            },
+            {
+                "fullName": "HeroesComponent Add function should return if name is undefined",
+                "description": "should return if name is undefined",
+                "id": "spec6",
+                "log": [],
+                "skipped": false,
+                "disabled": false,
+                "pending": false,
+                "success": true,
+                "suite": [
+                    "HeroesComponent",
+                    "Add function"
+                ],
+                "time": 0,
+                "executedExpectationsCount": 1
+            },
+            {
+                "fullName": "HeroesComponent Add function should call addHero",
+                "description": "should call addHero",
+                "id": "spec7",
+                "log": [],
+                "skipped": false,
+                "disabled": false,
+                "pending": false,
+                "success": true,
+                "suite": [
+                    "HeroesComponent",
+                    "Add function"
+                ],
+                "time": 3,
+                "executedExpectationsCount": 1
+            },
+            {
+                "fullName": "Message Service should be emty in the start",
+                "description": "should be emty in the start",
+                "id": "spec8",
+                "log": [],
+                "skipped": false,
+                "disabled": false,
+                "pending": false,
+                "success": true,
+                "suite": [
+                    "Message Service"
+                ],
+                "time": 0,
+                "executedExpectationsCount": 1
+            },
+            {
+                "fullName": "Message Service should add messages",
+                "description": "should add messages",
+                "id": "spec9",
+                "log": [],
+                "skipped": false,
+                "disabled": false,
+                "pending": false,
+                "success": true,
+                "suite": [
+                    "Message Service"
+                ],
+                "time": 0,
+                "executedExpectationsCount": 1
+            },
+            {
+                "fullName": "Message Service should be empty after clear",
+                "description": "should be empty after clear",
+                "id": "spec10",
+                "log": [],
+                "skipped": false,
+                "disabled": false,
+                "pending": false,
+                "success": true,
+                "suite": [
+                    "Message Service"
+                ],
+                "time": 1,
+                "executedExpectationsCount": 1
+            },
+            {
+                "fullName": "StrengthPipe should display weak if Strength is 5",
+                "description": "should display weak if Strength is 5",
+                "id": "spec11",
+                "log": [],
+                "skipped": false,
+                "disabled": false,
+                "pending": false,
+                "success": true,
+                "suite": [
+                    "StrengthPipe"
+                ],
+                "time": 0,
+                "executedExpectationsCount": 1
+            },
+            {
+                "fullName": "StrengthPipe should display strong if strength is 10",
+                "description": "should display strong if strength is 10",
+                "id": "spec12",
+                "log": [],
+                "skipped": false,
+                "disabled": false,
+                "pending": false,
+                "success": true,
+                "suite": [
+                    "StrengthPipe"
+                ],
+                "time": 0,
+                "executedExpectationsCount": 1
+            },
+            {
+                "fullName": "StrengthPipe should display unbelievable if strength is 20",
+                "description": "should display unbelievable if strength is 20",
+                "id": "spec13",
+                "log": [],
+                "skipped": false,
+                "disabled": false,
+                "pending": false,
+                "success": true,
+                "suite": [
+                    "StrengthPipe"
+                ],
+                "time": 0,
+                "executedExpectationsCount": 1
+            }
+        ]
+    },
+    "summary": {
+        "success": 14,
+        "failed": 0,
+        "error": false,
+        "disconnected": false,
+        "exitCode": 0
+    }
+}
